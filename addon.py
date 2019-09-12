@@ -4,27 +4,16 @@ from resources.lib import mainaddon
 plugin = Plugin()
 
 url1 = "http://feeds.feedburner.com/crooked-conversations" #CROOKEDMINIS
-https://lh3.googleusercontent.com/FEgSSdv6hb4NUsLa7IUoJ70MNjs66rNP_j_tyLca5K1oEGHckoVD6_rAIKeb=s180-c-e100-rwu-v1
 url2 = "http://feeds.feedburner.com/hysteria-podcast" #HYSTERIA
-https://crooked.com/wp-content/uploads/2018/06/750x750-e1529000788846.png
 url3 = "http://feeds.feedburner.com/keep-it" #KEEPIT
-https://crooked.com/wp-content/uploads/2017/12/ki_wide_image_v6-e1528750175180.png
 url4 = "http://feeds.feedburner.com/lovett-or-leave-it" #LOVETTORLEAVEIT
-https://crooked.com/wp-content/uploads/2019/01/750x750.png
 url5 = "http://feeds.feedburner.com/majority-54" #MAJORITY54WITHJASONKANDER
-https://crooked.com/wp-content/uploads/2017/11/m54_wide_image-e1528750714358.png
 url6 = "http://feeds.feedburner.com/pod-save-america" #PODSAVEUSA
-https://crooked.com/wp-content/uploads/2017/10/show-podsaveamerica@2xtrans-e1528750384834.png
 url7 = "http://feeds.feedburner.com/pod-save-the-people" #PODSAVETHEPEOPLE
-https://crooked.com/wp-content/uploads/2018/05/pstp_wide_image-e1528750680770.jpg
 url8 = "http://feeds.feedburner.com/pod-save-the-world" #PODSAVETHEWORLD
-https://crooked.com/wp-content/uploads/2019/01/PSTW_540x790.png
 url9 = "http://feeds.feedburner.com/the-wilderness" #THEWILDERNESS
-https://crooked.com/wp-content/uploads/2018/07/wilderness_title.png
 url10 = "http://feeds.feedburner.com/this-land" #THISLAND
-https://crooked.com/wp-content/uploads/2019/05/this-land@2x.png
 url11 = "http://feeds.feedburner.com/with-friends-like-these" #WITHFRIENDLIKETHESE
-https://crooked.com/wp-content/uploads/2018/03/wflt_wide_image-e1528750559627.jpg
 
 @plugin.route('/')
 def main_menu():

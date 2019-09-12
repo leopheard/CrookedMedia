@@ -123,7 +123,7 @@ def episodes8():
 
 @plugin.route('/episodes9/')
 def episodes9():
-    soup1 = mainaddon.get_soup1(url9)
+    soup9 = mainaddon.get_soup9(url9)
     playable_podcast9 = mainaddon.get_playable_podcast9(soup9)
     items = mainaddon.compile_playable_podcast9(playable_podcast9)
     return items
